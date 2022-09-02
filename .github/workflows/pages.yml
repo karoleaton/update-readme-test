@@ -28,7 +28,7 @@ jobs:
        - name: Update GitHub Profile README
          uses: theboi/github-update-readme@v1.0
          env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_README_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.G_README_TOKEN }}
          with:
           header: "Hello there 👋"
 
